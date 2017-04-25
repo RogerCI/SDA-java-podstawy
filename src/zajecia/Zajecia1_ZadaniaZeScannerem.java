@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by RENT on 2017-04-04.
  */
-public class ZadaniaZeScannerem {
+public class Zajecia1_ZadaniaZeScannerem {
     public static void main(String[] args) {
 
         //checkOfSthFromUser();
@@ -115,7 +115,7 @@ public class ZadaniaZeScannerem {
 
     public static void fillArray() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Insert size: ");
+        System.out.println("Insert numberOfBooks: ");
         int size = scanner.nextInt();
         int[] array = new int[size]; //pusta tablica o zadanej liczbie elementach
 
@@ -151,7 +151,7 @@ public class ZadaniaZeScannerem {
     public static void addElementsMultipliedBy() {
         //pytamy o rozmiar tablicy
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Insert size: ");
+        System.out.println("Insert numberOfBooks: ");
         int size = scanner.nextInt();
 
         //tworzymy tablice

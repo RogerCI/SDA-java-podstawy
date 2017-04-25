@@ -2,6 +2,9 @@ package zajecia;
 
 import java.util.Scanner;
 
+/**
+ * Created by RENT on 2017-04-07.
+ */
 public class Zajecia4 {
     public static void main(String[] args) {
 

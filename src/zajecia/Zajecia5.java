@@ -40,17 +40,17 @@ public class Zajecia5 {
 
         /*
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Insert size: ");
-        int size = scanner.nextInt();
+        System.out.println("Insert numberOfBooks: ");
+        int numberOfBooks = scanner.nextInt();
         System.out.println("Insert bound: ");
         int bound = scanner.nextInt();
         System.out.println("Insert offset: ");
         int offset = scanner.nextInt();
 
-        Zajecia4.displayArray(getRandomArray(size, bound, offset));
+        Zajecia4.displayArray(getRandomArray(numberOfBooks, bound, offset));
 
         System.out.println("Statistics:");
-        Zajecia4.statistics(getRandomArray(size, bound, offset));
+        Zajecia4.statistics(getRandomArray(numberOfBooks, bound, offset));
         */
 
 //        printSquare(5);
@@ -280,11 +280,11 @@ public class Zajecia5 {
     public static int[] getArray(int value) {
         //funkcja ma stworzyc tablice parzystych liczb od zero do ostatniej parzystej mniejszej od zadanego value
         //czyli np. dla 11 ma byc od 0 do 10, a dla 10 ma byc od 0 do 8
-        //obliczyc size
+        //obliczyc numberOfBooks
 
         //WERSJA PIERWSZA
-        //int size = value / 2 + value % 2;  //czyli dla value - 11 mam 11/2 + 11%2 = 5 + 1 = 6 elementów
-        //int[] array = new int[size];
+        //int numberOfBooks = value / 2 + value % 2;  //czyli dla value - 11 mam 11/2 + 11%2 = 5 + 1 = 6 elementów
+        //int[] array = new int[numberOfBooks];
 
         //w petli ustawic wartosci
         //for (int i = 0; i < array.length; i++) {
@@ -296,8 +296,8 @@ public class Zajecia5 {
         //WERSJA DRUGA - dla nieparzystego value dajw wyniku 1, 3, 5, 7, itd... a dla parzystego tak jak bylo
         //wariant 1
         /*
-        int size = value / 2; //obojetnie czy parzystych czy nieparzystych liczba elementow w ynikowej tablicy bedzie taka sama
-        int[] array = new int[size];
+        int numberOfBooks = value / 2; //obojetnie czy parzystych czy nieparzystych liczba elementow w ynikowej tablicy bedzie taka sama
+        int[] array = new int[numberOfBooks];
         if (value % 2 == 0) { //parzyste
             for (int i = 0; i < array.length; i++) {
                 array[i] = i * 2;

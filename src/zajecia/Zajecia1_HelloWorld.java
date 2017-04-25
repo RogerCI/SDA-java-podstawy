@@ -2,7 +2,10 @@ package zajecia;
 
 import java.util.Scanner;
 
-public class HelloWorld {
+/**
+ * Created by RENT on 2017-04-04.
+ */
+public class Zajecia1_HelloWorld {
     public static void main(String[] args) {
 
 //        checkAge();
